@@ -1,2 +1,1 @@
-# ccp_starter_code
-Starter Code for your CCP 
+Basic HTML Website with 4 pages

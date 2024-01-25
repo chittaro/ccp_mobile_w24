@@ -1,0 +1,14 @@
+h1 {
+    color: darkolivegreen;
+}
+
+h2 {
+    color: brown;
+}
+
+.pizz{
+    color: lightcoral;
+    background-color: black;
+    border: dashed 5px red;
+    width: 45px;
+}

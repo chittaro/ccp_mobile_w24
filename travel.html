@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pets</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href = "">Skip to Main Content</a>
+    <a class = "skip "href = "">Skip to Main Content</a>
     <header>
+        <h1>Hi.com</h1>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -17,47 +19,52 @@
                 <li class = "active"><a href = "travel.html">Travel</a></li>
             </ul>
         </nav>
-        <h1>Hi.com</h1>
 
     </header>
     <main>
-        <h1>Travel</h1>
-        <div>
-            <h2>Yellowstone</h2>
-            <img src="images/yellowstone_cauldron.jpg" width = "400" alt="Steaming geyser in Yellowstone National Park">
+        <h2>Travel</h2>
 
-            <p>Really cool and fun spot. Don't put your feet in it please.</p>
-            <h3>Activities</h3>
-            <ul>
-                <li>Kicking back and watching the show</li>
-                <li>Bringing your kids to the spectacle</li>
-                <li>Making your kids put their feet in it</li>
-            </ul>        
-        </div>
-        <div>
-            <h2>The Great Pyramids</h2>
-            <img src="images/place1.jpg" width = "400" alt="The sphinx sitting with the great pyramids situated behind it">
+        <div class = "master-grid">
 
-            <p>A classic. Really old and so mysterious.</p>
-            <h3>Activities</h3>
-            <ul>
-                <li>Take a picture with your spouse</li>
-                <li>Answer the sphinx's ancient riddles or bad luck for 10 years</li>
-                <li>Make friends</li>
-            </ul>        
-        </div>
-        <div>
-            <h2>Yellowstone</h2>
-            <img src="images/place2.webp" width = "400" alt="Taj mahal on a sunny day">
+            <div class = "mini-grid">
+                <div>
+                    <h2>Yellowstone</h2>
+                </div>
+                <div>
+                    <img class = "grid-img" src="images/yellowstone_cauldron.jpg" width = "400" alt="Steaming geyser in Yellowstone National Park">
+                </div>
+                    <p>Really cool and fun spot. Don't put your feet in it please.</p>
+                <div>
+                </div>
+            </div>
 
-            <p>Gorgianas gorgina destination. Mhm</p>
-            <h3>Activities</h3>
-            <ul>
-                <li>Swimming in the Taj pool</li>
-                <li>Climbing on top of the mehal</li>
-                <li>Stop and smell the roses</li>
-            </ul>        
+            <div class = "mini-grid">
+                <div>
+                    <h2>The Great Pyramids</h2>
+                </div>
+                <div>
+                    <img class = "grid-img" src="images/place1.jpg" width = "400" alt="The sphinx sitting with the great pyramids situated behind it">
+                </div>
+                <div>
+                    <p>A classic. Really old and so mysterious.</p>
+                </div>
+            </div>
+
+            <div class = "mini-grid">
+                <div>
+                    <h2>Taj Mahal</h2>
+                </div>
+                <div>
+                    <img class = "grid-img" src="images/place2.webp" width = "400" alt="Taj mahal on a sunny day">
+                </div>
+                <div>
+                    <p>Gorgianas gorgina destination. Mhm</p>
+                </div>
+
+            </div>
+
         </div>
+
     </main>
     
 </body>
